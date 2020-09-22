@@ -13,6 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class App 
 {
     public static void main( String[] args ) {
+        //System.setProperty("webdriver.chrome.driver", "C:/Program Files/Web Driver/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         MainPage page = new MainPage(driver);
         page.clickToHomeTitle();
